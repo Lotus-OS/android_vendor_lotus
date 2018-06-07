@@ -43,7 +43,7 @@ except ImportError:
 DEBUG = False
 default_manifest = ".repo/manifest.xml"
 
-custom_local_manifest = ".repo/local_manifests/pixel.xml"
+custom_local_manifest = ".repo/local_manifests/roomservice.xml"
 custom_default_revision = "pie"
 custom_dependencies = "lotus.dependencies"
 org_manifest = "LotusOS-Devices"  # leave empty if org is provided in manifest
