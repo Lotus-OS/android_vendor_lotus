@@ -118,6 +118,7 @@ PRODUCT_PACKAGES += \
     LatinIME \
     messaging \
     Recorder \
+    RetroMusicPlayer \
     LiveWallpapersPicker
 
 #Font package
