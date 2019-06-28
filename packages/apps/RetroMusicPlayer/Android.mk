@@ -1,12 +1,11 @@
 LOCAL_PATH := $(call my-dir)
 
+#Retro Music Player
 include $(CLEAR_VARS)
 LOCAL_MODULE := RetroMusicPlayer
-LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
-LOCAL_BUILT_MODULE_STEM := package.apk
-# Make sure the build system doesn't try to resign the APK
+LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := false
-LOCAL_SRC_FILES := RetroMusicPlayer.apk
 include $(BUILD_PREBUILT)
