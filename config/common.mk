@@ -109,11 +109,10 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Optional packages
 PRODUCT_PACKAGES += \
-    Calendar \
     Contacts \
     DeskClock \
     Dialer \
-    ExactCalculator \
+    Calculator \
     Gallery2 \
     LatinIME \
     messaging \
