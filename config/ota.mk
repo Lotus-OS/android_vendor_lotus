@@ -8,14 +8,14 @@ LOTUS_OTA_VERSION_CODE := pie
 endif
 
 LOTUS_PROPERTIES += \
-    org.pixelexperience.ota.version_code=$(LOTUS_OTA_VERSION_CODE) \
+    ro.lotus.ota.version_code=$(LOTUS_OTA_VERSION_CODE) \
     sys.ota.disable_uncrypt=1
 
 PRODUCT_PACKAGES += \
     Updates
 
 PRODUCT_COPY_FILES += \
-    vendor/lotus/config/permissions/org.pixelexperience.ota.xml:system/etc/permissions/org.pixelexperience.ota.xml
+    vendor/lotus/config/permissions/com.lotus.ota.xml:system/etc/permissions/com.lotus.ota.xml
 
 endif
 endif
