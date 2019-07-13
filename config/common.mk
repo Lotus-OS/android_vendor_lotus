@@ -180,6 +180,9 @@ include vendor/lotus/config/branding.mk
 # OTA
 include vendor/lotus/config/ota.mk
 
+# GApps
+include vendor/gapps/config.mk
+
 # Pixel Style
 include vendor/pixelstyle/config.mk
 
