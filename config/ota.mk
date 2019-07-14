@@ -7,9 +7,8 @@ else
 LOTUS_OTA_VERSION_CODE := pie
 endif
 
-LOTUS_PROPERTIES += \
-    ro.lotus.ota.version_code=$(LOTUS_OTA_VERSION_CODE) \
-    sys.ota.disable_uncrypt=1
+CUSTOM_PROPERTIES += \
+    ro.lotus.ota.version_code=$(LOTUS_OTA_VERSION_CODE) 
 
 PRODUCT_PACKAGES += \
     Updates
