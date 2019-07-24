@@ -1,11 +1,7 @@
 ifneq ($(IS_GENERIC_SYSTEM_IMAGE), true)
 ifeq ($(LOTUS_BUILD_TYPE), OFFICIAL)
 
-ifeq ($(IS_GO_VERSION), true)
-LOTUS_OTA_VERSION_CODE := pie_go
-else
 LOTUS_OTA_VERSION_CODE := pie
-endif
 
 CUSTOM_PROPERTIES += \
     ro.lotus.ota.version_code=$(LOTUS_OTA_VERSION_CODE) 
