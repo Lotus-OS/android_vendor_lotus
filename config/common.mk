@@ -40,6 +40,10 @@ else
 # Enable ADB authentication
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
+    
+# Long screenshotOP
+PRODUCT_PACKAGES += \
+    Longshot    
 
 # Ambient Play
 PRODUCT_PACKAGES += \
