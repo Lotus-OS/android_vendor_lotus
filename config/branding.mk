@@ -1,5 +1,5 @@
 # Set all versions
-LOTUS_BUILD_TYPE ?=Rainy-Rain
+LOTUS_BUILD_TYPE ?=Autumn
 
 LOTUS_DATE_YEAR := $(shell date -u +%Y)
 LOTUS_DATE_MONTH := $(shell date -u +%m)
