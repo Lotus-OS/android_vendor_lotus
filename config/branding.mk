@@ -22,6 +22,7 @@ MODVERSION := Lotus-OS-v$(LOTUS_VERSION_NUMBER)-$(LOTUS_BUILD)-$(LOTUS_BUILD_DAT
 CUSTOM_PROPERTIES := \
     ro.modversion==$(MODVERSION) \
     ro.lotus.version=$(LOTUS_VERSION_NUMBER) \
+    ro.lotus.date=$(LOTUS_DATE_YEAR)-$(LOTUS_DATE_MONTH)-$(LOTUS_DATE_DAY) \
     ro.lotus.build_date=$(LOTUS_BUILD_DATE) \
     ro.lotus.build_date_utc=$(LOTUS_BUILD_DATE_UTC) \
     ro.lotus.build_type=$(LOTUS_BUILD_TYPE) \
