@@ -183,6 +183,15 @@ DEVICE_PACKAGE_OVERLAYS += vendor/lotus/overlay/common
 # Cutout control overlay
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
+    
+# Recorder app
+PRODUCT_PACKAGES += \
+    Recorder
+
+# Some permissions
+PRODUCT_COPY_FILES += \
+    vendor/lotus/config/permissions/privapp-permissions-recorder.xml:system/etc/permissions/privapp-permissions-recorder.xml
+
 
 # SetupWizard overlay
 PRODUCT_PACKAGES += \
