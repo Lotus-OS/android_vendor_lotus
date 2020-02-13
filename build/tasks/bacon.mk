@@ -14,10 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-CUSTOM_TARGET_PACKAGE := $(PRODUCT_OUT)/$(CUSTOM_VERSION).zip
+LOTUS_TARGET_PACKAGE := $(PRODUCT_OUT)/$(LOTUS_VERSION).zip
 
 .PHONY: bacon
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
-	$(hide) mv $(INTERNAL_OTA_PACKAGE_TARGET) $(CUSTOM_TARGET_PACKAGE)
-	$(hide) $(MD5SUM) $(CUSTOM_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(CUSTOM_TARGET_PACKAGE).md5sum
-	@echo "Package Complete: $(CUSTOM_TARGET_PACKAGE)" >&2
+	$(hide) mv $(INTERNAL_OTA_PACKAGE_TARGET) $(LOTUS_TARGET_PACKAGE)
+	$(hide) $(MD5SUM) $(LOTUS_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(LOTUS_TARGET_PACKAGE).md5sum
+	@echo "Package Complete: $(LOTUS_TARGET_PACKAGE)" >&2
