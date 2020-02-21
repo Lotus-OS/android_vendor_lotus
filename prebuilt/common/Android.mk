@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_USES_AOSP_APNS_CONF),)
+ifeq ($(TARGET_USES_LOTUS_APNS_CONF),)
 ################################
 # Copies the APN list file into system/etc for the product as apns-conf.xml.
 # In the case where $(LOTUS_APNS_FILE) is defined, the content of $(LOTUS_APNS_FILE)
