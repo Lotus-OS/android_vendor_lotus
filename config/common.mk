@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
 
 # Enforce privapp-permissions whitelist
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.control_privapp_permissions=enforce
+    ro.control_privapp_permissions=disable
 
 # Power whitelist
 PRODUCT_COPY_FILES += \
@@ -135,7 +135,7 @@ include vendor/lotus/config/branding.mk
 # include vendor/lotus/config/ota.mk
 
 # GApps
-# include vendor/gapps/config.mk
+include vendor/gapps/config.mk
 
 # Pixel Style
 include vendor/pixelstyle/config.mk
