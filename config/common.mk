@@ -130,7 +130,7 @@ PRODUCT_PACKAGES += \
 
 # Packages 
 PRODUCT_PACKAGES += \
-    AudioFX \
+    MusicFX \
     Terminal \
     PixelLiveWallpaperPrebuilt
     
