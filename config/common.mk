@@ -128,6 +128,17 @@ PRODUCT_PACKAGES += \
     misc_writer_system \
     themed_bootanimation
 
+# Packages 
+PRODUCT_PACKAGES += \
+    AudioFX \
+    Terminal 
+    
+# External
+PRODUCT_PACKAGES += \
+    htop \
+    bash \
+    nano
+
 # Branding
 include vendor/lotus/config/branding.mk
 
