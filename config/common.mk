@@ -131,7 +131,8 @@ PRODUCT_PACKAGES += \
 # Packages 
 PRODUCT_PACKAGES += \
     AudioFX \
-    Terminal 
+    Terminal \
+    PixelLiveWallpaperPrebuilt
     
 # External
 PRODUCT_PACKAGES += \
