@@ -137,7 +137,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     htop \
     bash \
-    nano
+    nano \
+    python 
 
 # Branding
 include vendor/lotus/config/branding.mk
