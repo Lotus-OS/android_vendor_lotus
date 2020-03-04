@@ -138,7 +138,19 @@ PRODUCT_PACKAGES += \
     htop \
     bash \
     nano \
-    python 
+    python \
+    rsync \
+    cmake
+    
+# Openssh
+PRODUCT_PACKAGES += \
+    scp \
+    sftp \
+    ssh \
+    sshd \
+    sshd_config \
+    ssh-keygen \
+    start-ssh
 
 # Branding
 include vendor/lotus/config/branding.mk
